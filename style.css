@@ -1,0 +1,66 @@
+@charset "utf-8"
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+
+}
+
+#nav {
+	background: #141a61;
+	width: 100%;
+	height: 60px;
+	line-height: 60px;
+
+}
+
+#nav h1{
+	float: left;
+}
+
+#nav h1 a {
+	text-decoration: none;
+	color: white;
+	margin-left: 25px;
+	font-family: 'Lato', sans-serif;
+}
+
+#nav ul {
+	float: right;
+}
+#nav ul li {
+	text-decoration: none;
+	list-style-type:  none;
+	display: inline-block;
+}
+
+#nav ul li a {
+	text-decoration: none;
+	color: white;
+	padding:  25px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#nav ul li :hover {
+	background: #275bef;
+	transition: all ease-in-out 0.40s;
+}
+
+#hello {
+	background: #275bef;
+}
+
+#hello1 {
+	background: #275bef;
+	height: 5px;
+}
+
+#hello2 {
+	background: url(images/pizzapic.jpg: 1) no-repeat;
+	width: 100%;
+	height: 600px;
+}
